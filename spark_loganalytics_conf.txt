@@ -1,0 +1,15 @@
+spark.synapse.logAnalytics.enabled true
+spark.synapse.logAnalytics.workspaceId b348cf30-63e8-4a66-845f-c2218a829118
+spark.synapse.logAnalytics.secret EojVLxFLOL5BpzorpkV6rI9fjXFde8QJ5iv/5F8jDZEpnnHanvAUVTHIY5L6E20jdltFn/YQ5pKZYTJoieXZ+A==
+
+
+dbfs:/FileStore/shared_uploads/lima8@microsoft.com/products_1_-1.csv
+
+df1 = spark.read.format("csv").option("header", "true").load("dbfs:/FileStore/shared_uploads/lima8@microsoft.com/products_1_-1.csv")
+
+
+#Databricks Data Factory access token
+dapi4e9e08eb3a4129dc4edb8a98933ef11c
+
+#raw storage container access token
+sp=r&st=2023-08-04T08:17:34Z&se=2023-08-04T16:17:34Z&spr=https&sv=2022-11-02&sr=c&sig=klpT0FVcMT1tFHuKqiy4YHDl05VljW4%2BWOH5LndSrME%3D
